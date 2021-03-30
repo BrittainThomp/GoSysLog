@@ -3,9 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"time"
 
-	gocron "github.com/go-co-op/gocron"
 	ftp "github.com/martinr92/goftp"
 )
 
@@ -44,7 +42,4 @@ func main() {
 
 	//define our variables from command line. Can optionally
 	fmt.Println("starting connection. . .")
-
-	schedule := gocron.NewScheduler(time.UTC)
-	schedule.Every(1).Day().At("12:00").Do(uploadLog())
 }
