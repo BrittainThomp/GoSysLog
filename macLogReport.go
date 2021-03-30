@@ -10,7 +10,7 @@ import (
 var uploadLog = func() string {
 
 	//connect
-	ftpClient, err := ftp.NewFtp("192.168.88.247:21")
+	ftpClient, err := ftp.NewFtp("YOUR IP:PORT HERE")
 	if err != nil {
 		panic(err)
 	}
@@ -42,4 +42,6 @@ func main() {
 
 	//define our variables from command line. Can optionally
 	fmt.Println("starting connection. . .")
+	
+	uploadLog()
 }
