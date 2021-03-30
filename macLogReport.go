@@ -19,7 +19,7 @@ var uploadLog = func() string {
 	defer ftpClient.Close()
 
 	//send credentials
-	if err = ftpClient.Login("GoLog", "BigDumbLog2121!"); err != nil {
+	if err = ftpClient.Login("YOUR USER HERE", "YOUR PW HERE"); err != nil {
 		panic(err)
 	}
 
