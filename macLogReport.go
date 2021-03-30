@@ -36,10 +36,6 @@ var uploadLog = func() string {
 
 func main() {
 
-	if len(os.Args) < 3 {
-		println("please provide a host address, username, and password")
-	}
-
 	//define our variables from command line. Can optionally
 	fmt.Println("starting connection. . .")
 	
