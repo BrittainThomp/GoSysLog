@@ -1,2 +1,2 @@
 # GoTools
-A collection of any tools I write in GoLang
+A collection of tools written in GoLang
