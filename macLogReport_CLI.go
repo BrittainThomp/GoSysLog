@@ -43,7 +43,7 @@ var uploadLog = func() string {
 func main() {
 
 	if len(os.Args) < 5 {
-		println("example usage: ./macLogReport_CLI.go IP:PORT USERNAME PASSWORD FILPATH FILEOUT REMOTE_DIRECTORY")
+		fmt.Println("example usage: ./macLogReport_CLI.go IP:PORT USERNAME PASSWORD FILPATH FILEOUT REMOTE_DIRECTORY")
 	}
 
 	//define our variables from command line. Can optionally
